@@ -14,6 +14,7 @@ layout: page
     <div class="">
         {{ "Speaker: <strong>" | append: page.presenter | append: "</strong>" | markdownify }}
         {{ "Time: <strong>" | append: page.time | append: "</strong>" | markdownify }}
+        <a href="{{page.slides}}">Slides</a>
     </div>
     {%- endif -%}
 </div>
