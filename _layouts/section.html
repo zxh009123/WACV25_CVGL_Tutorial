@@ -12,6 +12,7 @@ layout: page
     {%- endif -%}
     {% if page.time %}
     <div class="">
+        {{ "Presenter: <strong>" | append: page.presenter | append: "</strong>" | markdownify }}
         {{ "Time: <strong>" | append: page.time | append: "</strong>" | markdownify }}
     </div>
     {%- endif -%}

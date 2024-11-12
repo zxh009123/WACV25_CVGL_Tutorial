@@ -1,7 +1,7 @@
 ---
 title: "Multimedia UAVs: Capturing the World from a New Perspective"
 # nav: true
-time: 11:25am - 12:45pm
+time: TBD
 presenter: Zhedong Zheng
 ---
 

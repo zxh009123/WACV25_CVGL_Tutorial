@@ -12,8 +12,8 @@
                     <li><a href="{{ section.url | relative_url }}">
                         {{ section.title }}
                     </a> 
-                        <small>| time: {{ section.time }}</small>
                         <small>| presenter: {{ section.presenter }}</small>
+                        <small>| time: {{ section.time }}</small>
                     </li>
                     {% endif %}
                     {%- endfor -%}
