@@ -13,8 +13,9 @@
                         <a href="{{ section.url | relative_url }}">
                         {{ section.title }}
                     </a> <br>
-                        <small>| speaker: {{ section.presenter }}</small>
+                        <small> speaker: {{ section.presenter }}</small>
                         <small>| time: {{ section.time }}</small>
+                        <small href="{{page.slides}}">| Download Slides</small>
                     </li>
                     {% endif %}
                     {%- endfor -%}
