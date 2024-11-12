@@ -18,6 +18,17 @@
                         <small>| <a href="{{section.slides}}">Slides</a></small>
                     </li>
                     {% endif %}
+
+                    {% if section.discussion %}
+                    <li>
+                        <a> {{ section.title }}</a> <br>
+                        <small> Time: {{ section.time }}</small>
+                        {% if section.recording %}
+                        <small>| <a href="{{section.recording}}">Recording</a></small>
+                        {% endif %}
+                    </li>
+                    {% endif %}
+
                     {%- endfor -%}
                 </ul>
             </div>
