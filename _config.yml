@@ -18,8 +18,8 @@ title: "Cross-View Geo-Localization: Current Challenges and Future Frontiers wit
 # title-icon: lightblub
 # description, keywords, and image for meta tags
 # these do not visibility appear on the pages, but used for SEO
-description: "Create a workshop website quick and easy!"
-keywords: "workshops, websites, gh-pages, jekyll"
+description: "WACV 2025 tutorial, Cross-View Geo-Localization: Current Challenges and Future Frontiers with GenAI"
+keywords: "Computer Vision, WACV, visual geo-localization, cross-view geo-localization, GenAI"
 # featured-image is added to metadata tags for social media sharing
 # use a relative path to image in this repository or full URL
 featured-image: "/images/uidaho-workshop.jpg"

@@ -3,9 +3,10 @@ title: Home
 layout: page
 ---
 
-# Bootstrap Workshop Template!
+# WACV 2025 Tutorial
+# Cross-View Geo-Localization: Current Challenges and Future Frontiers with GenAI
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
+{% include figure.html img="teaser.png" alt="intro image here" width="100%" %}
 
 A minimal Jekyll theme with Bootstrap for creating workshop websites.
 
