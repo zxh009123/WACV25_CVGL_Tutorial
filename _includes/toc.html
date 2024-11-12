@@ -8,12 +8,14 @@
                 <h2 class="h4 card-title">Schedule:</h2>
                 <ul>
                     {% for section in site.html_pages %}
+                    {% if section.presenter %}
                     <li><a href="{{ section.url | relative_url }}">
                         {{ section.title }}
                     </a> 
                         <small>| time: {{ section.topics }}</small>
                         <small>| presenter: {{ section.presenter }}</small>
                     </li>
+                    {% endif %}
                     {%- endfor -%}
                 </ul>
             </div>
