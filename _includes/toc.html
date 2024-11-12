@@ -7,7 +7,7 @@
             <div class="card-body">
                 <h2 class="h4 card-title">Schedule:</h2>
                 <ul>
-                    {% for section in site.html_pages %}{% if section.nav %}
+                    {% for section in site.html_pages %}
                     <li><a href="{{ section.url | relative_url }}">
                         {{ section.title }}
                     </a> 
