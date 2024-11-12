@@ -9,9 +9,10 @@
                 <ul>
                     {% for section in site.html_pages %}
                     {% if section.presenter %}
-                    <li><a href="{{ section.url | relative_url }}">
+                    <li>
+                        <a href="{{ section.url | relative_url }}">
                         {{ section.title }}
-                    </a> 
+                    </a> <br>
                         <small>| speaker: {{ section.presenter }}</small>
                         <small>| time: {{ section.time }}</small>
                     </li>

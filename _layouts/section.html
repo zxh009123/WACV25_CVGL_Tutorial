@@ -14,7 +14,7 @@ layout: page
     <div class="">
         {{ "Speaker: <strong>" | append: page.presenter | append: "</strong>" | markdownify }}
         {{ "Time: <strong>" | append: page.time | append: "</strong>" | markdownify }}
-        <a href="{{page.slides}}">Slides</a>
+        <a href="{{page.slides}}">Download Slides</a>
     </div>
     {%- endif -%}
 </div>
@@ -25,7 +25,6 @@ layout: page
         <div class="ratio ratio-16x9">
             <iframe title="{{ page.title }} section video" src="https://www.youtube-nocookie.com/embed/{{ page.youtubeid }}?rel=0&modestbranding=1" allowfullscreen></iframe>
         </div>
-        <figcaption class="figure-caption mt-1"><a href="https://youtu.be/{{ page.youtubeid }}" target="_blank" rel="noopener">Section Video</a></figcaption>
     </figure>
 </div>
 {%- endif -%}
