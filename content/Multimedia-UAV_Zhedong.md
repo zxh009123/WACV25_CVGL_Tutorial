@@ -1,6 +1,6 @@
 ---
 title: Multimedia UAVs Capturing the World from a New Perspective
-nav: true
+# nav: true
 topics: 11:25am - 12:45pm
 ---
 
