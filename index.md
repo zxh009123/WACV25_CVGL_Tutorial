@@ -8,9 +8,13 @@ layout: page
 
 {% include figure.html img="teaser.png" alt="intro image here" width="100%" %}
 
-**Date : February 28, 2025** \
+<!-- **Date : February 28, 2025** \
 **Time : TBD** \
-**Location : TBD**
+**Location : TBD** -->
+
+<div style="text-align:center;"><b>Date : February 28, 2025</b></div>
+<div style="text-align:center;"><b>Time : TBD</b></div>
+<div style="text-align:center;"><b>Location : TBD</b></div>
 
 <br>
 
