@@ -36,6 +36,11 @@ The availability of geospatial data from diverse sources and perspectives has ex
 #### Schedule
 {% include toc.html %}
 
+<br>
+
+#### Schedule
+{% include publications.html %}
+
 ------
 
 {% include template/credits.html %}
