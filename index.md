@@ -29,7 +29,8 @@ The availability of geospatial data from diverse sources and perspectives has ex
 
 <!-- #### Organizers -->
 <h4 style="text-align:center;">Organizers</h4>
-* ![Chen](https://www.crcv.ucf.edu/chenchen/Chen.jpeg) [Chen Chen](https://www.crcv.ucf.edu/chenchen/), University of Central Florida, Orlando, FL, USA 
+
+* [Chen Chen](https://www.crcv.ucf.edu/chenchen/), University of Central Florida, Orlando, FL, USA 
 * [Safwan Wshah](https://www.wshahaigroup.com/), University of Vermont, Burlington, VT, USA 
 * [Xiaohan Zhang](https://zxh009123.github.io/), University of Vermont, Burlington, VT, USA 
 
@@ -37,6 +38,7 @@ The availability of geospatial data from diverse sources and perspectives has ex
 
 <!-- #### Speakers -->
 <h4 style="text-align:center;">Speakers</h4> 
+
 * [Rakesh “Teddy” Kumar](https://www.sri.com/people/rakesh-kumar/), SRI International, Menlo Park, CA, USA 
 * [Zhedong Zheng](https://www.zdzheng.xyz/), University of Macau, Macau, China 
 
