@@ -10,7 +10,7 @@
                     {% for section in site.html_pages %}
                     {% if section.presenter %}
                     <li>
-                        <h>Time: {{ section.time }}</h>
+                        <h>{{ section.time }}:</h>
                         <a href="{{ section.url | relative_url }}">
                         {{ section.title }}
                     </a> <br>
