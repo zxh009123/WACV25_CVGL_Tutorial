@@ -8,7 +8,7 @@
                 <!-- <h3 class="h4 card-title">Schedule:</h3> -->
                 <ul>
                     {% for section in site.html_pages %}
-                    {% if section.presenter %}
+                    <!-- {% if section.presenter %} -->
                     <li>
                         <a href="{{ section.url | relative_url }}">
                         {{ section.title }}
@@ -17,9 +17,9 @@
                         <small>| Time: {{ section.time }}</small>
                         <small>| <a href="{{section.slides}}">Slides</a></small>
                     </li>
-                    {% endif %}
+                    <!-- {% endif %} -->
 
-                    {% if section.NoLink %}
+                    <!-- {% if section.NoLink %}
                     <li>
                         <h> {{ section.title }}</h> <br>
                         <small> Time: {{ section.time }}</small>
@@ -27,7 +27,7 @@
                         <small>| <a href="{{section.recording}}">Recording</a></small>
                         {% endif %}
                     </li>
-                    {% endif %}
+                    {% endif %} -->
 
                     {%- endfor -%}
                 </ul>
