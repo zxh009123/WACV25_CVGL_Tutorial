@@ -1,7 +1,7 @@
 ---
 title: "GenAI for cross-view geo-localization"
 # nav: true
-time: TBD
+time: 9:20 - 10:00
 presenter: Safwan Wshah
 # youtubeid: ey7Llt7THW0
 slides: 

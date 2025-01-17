@@ -1,7 +1,7 @@
 ---
 title: "Large Vision-Language models for cross-view geo-localization"
 # nav: true
-time: TBD
+time: 11:00 - 11:30
 presenter: Chen Chen
 # youtubeid: ey7Llt7THW0
 slides: 

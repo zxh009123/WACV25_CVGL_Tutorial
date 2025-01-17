@@ -1,7 +1,7 @@
 ---
 title: "Geo-localization of ground and aerial imagery by cross-view alignment to overhead reference"
 # nav: true
-time: TBD
+time: 10:20 - 11:00
 presenter: Rakesh “Teddy” Kumar
 # youtubeid: ey7Llt7THW0
 slides: 

@@ -1,6 +1,6 @@
 ---
 title: "Coffee Break"
-time: TBD
+time: 10:00 - 10:20
 NoLink: true
 ---
 

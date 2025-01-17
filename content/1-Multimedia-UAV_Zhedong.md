@@ -1,7 +1,7 @@
 ---
 title: "Multimedia UAVs: Capturing the World from a New Perspective"
 # nav: true
-time: TBD
+time: 8:40 - 9:20
 presenter: Zhedong Zheng
 youtubeid: ey7Llt7THW0
 slides: https://drive.google.com/file/d/1Vvka9ZOpFNdnuebp4NHcBgO4eT4Rd8dv/view?usp=sharing
