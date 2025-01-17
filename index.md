@@ -13,8 +13,8 @@ layout: page
 **Location : TBD** -->
 
 <div style="text-align:center;"><b>Date : February 28, 2025</b></div>
-<div style="text-align:center;"><b>Time : TBD</b></div>
-<div style="text-align:center;"><b>Location : TBD</b></div>
+<div style="text-align:center;"><b>Time : 8:30 to 12:00 (MST)</b></div>
+<div style="text-align:center;"><b>Location : Salon C (80)</b></div>
 
 <br>
 

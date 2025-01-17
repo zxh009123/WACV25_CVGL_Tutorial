@@ -1,7 +1,7 @@
 ---
 title: "Panel Discussion"
 time: TBD
-discussion: true
+NoLink: true
 recording: https://www.youtube.com/watch?v=Ha1spmRvx-o
 ---
 
