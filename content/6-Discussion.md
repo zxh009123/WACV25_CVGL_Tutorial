@@ -1,6 +1,6 @@
 ---
 title: "Panel Discussion"
-time: 11:30 - 12:00
+time: 11:40 - 12:00
 NoLink: true
 recording: https://www.youtube.com/watch?v=Ha1spmRvx-o
 ---
