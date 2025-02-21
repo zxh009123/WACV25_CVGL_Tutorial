@@ -63,15 +63,15 @@
                                         <p class="mb-1 text-muted">Speaker: <strong>{{ section.presenter }}</strong></p>
                                     {% endif %}
                                 </div>
-                                <div class="d-flex flex-column align-items-end">
+                                <div class="d-flex flex-column align-items-end gap-2" style="min-width: 120px;">
                                     {% if section.slides %}
-                                        <a href="{{ section.slides }}" class="btn btn-outline-primary btn-sm me-2">
-                                            Slides
+                                        <a href="{{ section.slides }}" class="btn btn-outline-primary btn-sm w-100">
+                                            📄 Slides
                                         </a>
                                     {% endif %}
                                     {% if section.recording %}
-                                        <a href="{{ section.recording }}" class="btn btn-outline-danger btn-sm">
-                                            Recording
+                                        <a href="{{ section.recording }}" class="btn btn-outline-danger btn-sm w-100">
+                                            🎥 Recording
                                         </a>
                                     {% endif %}
                                 </div>
