@@ -5,7 +5,7 @@ time: 11:00 - 11:40
 presenter: Chen Chen
 # youtubeid: ey7Llt7THW0
 youtubeid:
-slides:
+slides: https://zxh009123.github.io/WACV25_CVGL_Tutorial/
 recording: https://www.youtube.com
 ---
 

@@ -5,7 +5,7 @@ time: 9:20 - 10:00
 presenter: Safwan Wshah
 # youtubeid: ey7Llt7THW0
 youtubeid:
-slides:
+slides: https://zxh009123.github.io/WACV25_CVGL_Tutorial/
 recording: https://www.youtube.com
 ---
 

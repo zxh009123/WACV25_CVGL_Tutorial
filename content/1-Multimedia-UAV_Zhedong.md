@@ -5,7 +5,7 @@ time: 8:40 - 9:20
 presenter: Zhedong Zheng
 # youtubeid: ey7Llt7THW0
 youtubeid:
-slides: https://drive.google.com/file/d/1Vvka9ZOpFNdnuebp4NHcBgO4eT4Rd8dv/view?usp=sharing
+slides: https://zxh009123.github.io/WACV25_CVGL_Tutorial/
 recording: https://www.youtube.com
 ---
 
