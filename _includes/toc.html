@@ -1,11 +1,10 @@
-<!-- {% comment %}
+{% comment %}
     Add an auto generated TOC based on the front matter of content pages 
 {% endcomment %}
 <div class="row justify-content-center">
     <div class="m-3 col-12" >
         <div class="card border-secondary">
             <div class="card-body">
-                <!-- <h3 class="h4 card-title">Schedule:</h3> -->
                 <ul>
                     {% for section in site.html_pages %}
                     {% if section.presenter %}
@@ -15,7 +14,6 @@
                         {{ section.title }}
                     </a> <br>
                         <small> Speaker: {{ section.presenter }}</small>
-                        <!-- <small>| Time: {{ section.time }}</small> -->
                         <small>| <a href="{{section.slides}}">Slides</a></small>
                         <small>| <a href="{{section.recording}}">Recording</a></small>
                     </li>
@@ -25,7 +23,6 @@
                     <li>
                         <h>{{ section.time }}: </h>
                         <h> {{ section.title }}</h>
-                        <!-- <small> Time: {{ section.time }}</small> -->
                         {% if section.recording %}
                         <small>| <a href="{{section.recording}}">Recording</a></small>
                         {% endif %}
@@ -37,10 +34,10 @@
             </div>
         </div>
     </div>
-</div> -->
+</div>
 
 
-{% comment %}
+<!-- {% comment %}
     Auto-generated schedule with enhanced styling
 {% endcomment %}
 <div class="row justify-content-center">
@@ -89,4 +86,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
