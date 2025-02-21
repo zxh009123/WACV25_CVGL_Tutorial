@@ -47,8 +47,8 @@
                 <ul class="list-group list-group-flush">
                     {% for section in site.html_pages %}
                         {% if section.time and section.title %}
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between align-items-center">
+                        <li class="list-group-item py-4">
+                            <div class="d-flex justify-content-between align-items-start">
                                 <div>
                                     <h5 class="mb-1"><strong>{{ section.time }}:</strong> 
                                         {% if section.url and section.presenter %}
