@@ -1,4 +1,4 @@
-{% comment %}
+<!-- {% comment %}
     Add an auto generated TOC based on the front matter of content pages 
 {% endcomment %}
 <div class="row justify-content-center">
@@ -33,6 +33,58 @@
                     {% endif %}
 
                     {%- endfor -%}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+{% comment %}
+    Auto-generated schedule with enhanced styling
+{% endcomment %}
+<div class="row justify-content-center">
+    <div class="m-3 col-12 col-md-10">
+        <div class="card border-0 shadow-lg rounded-4">
+            <div class="card-header bg-dark text-white text-center rounded-top-4">
+                <h3 class="mb-0">📅 Event Schedule</h3>
+            </div>
+            <div class="card-body p-4">
+                <ul class="list-group list-group-flush">
+                    {% for section in site.html_pages %}
+                        {% if section.time and section.title %}
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div>
+                                    <h5 class="mb-1"><strong>{{ section.time }}:</strong> 
+                                        {% if section.url and section.presenter %}
+                                            <a href="{{ section.url | relative_url }}" class="text-primary fw-bold text-decoration-none">
+                                                {{ section.title }}
+                                            </a>
+                                        {% else %}
+                                            {{ section.title }}
+                                        {% endif %}
+                                    </h5>
+                                    {% if section.presenter %}
+                                        <p class="mb-1 text-muted">🎤 Speaker: <strong>{{ section.presenter }}</strong></p>
+                                    {% endif %}
+                                </div>
+                                <div>
+                                    {% if section.slides %}
+                                        <a href="{{ section.slides }}" class="btn btn-outline-primary btn-sm me-2">
+                                            📄 Slides
+                                        </a>
+                                    {% endif %}
+                                    {% if section.recording %}
+                                        <a href="{{ section.recording }}" class="btn btn-outline-danger btn-sm">
+                                            🎥 Recording
+                                        </a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </li>
+                        {% endif %}
+                    {% endfor %}
                 </ul>
             </div>
         </div>
