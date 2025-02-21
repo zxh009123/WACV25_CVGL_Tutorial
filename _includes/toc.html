@@ -48,7 +48,7 @@
                     {% for section in site.html_pages %}
                         {% if section.time and section.title %}
                         <li class="list-group-item">
-                            <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-center">
                                 <div>
                                     <h5 class="mb-1"><strong>{{ section.time }}:</strong> 
                                         {% if section.url and section.presenter %}
@@ -63,7 +63,7 @@
                                         <p class="mb-1 text-muted">Speaker: <strong>{{ section.presenter }}</strong></p>
                                     {% endif %}
                                 </div>
-                                <div>
+                                <div class="d-flex flex-column align-items-end">
                                     {% if section.slides %}
                                         <a href="{{ section.slides }}" class="btn btn-outline-primary btn-sm me-2">
                                             Slides
