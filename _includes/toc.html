@@ -9,7 +9,7 @@
                 <ul>
                     {% for section in site.html_pages %}
                     {% if section.presenter %}
-                    <li>
+                    <li class="list-group-item">
                         <h>{{ section.time }}: </h>
                         <a href="{{ section.url | relative_url }}">
                         {{ section.title }}
@@ -22,7 +22,7 @@
                     {% endif %}
 
                     {% if section.NoLink %}
-                    <li>
+                    <li class="list-group-item">
                         <h>{{ section.time }}: </h>
                         <h> {{ section.title }}</h>
                         <!-- <small> Time: {{ section.time }}</small> -->
