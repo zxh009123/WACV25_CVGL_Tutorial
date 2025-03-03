@@ -4,9 +4,9 @@ title: "Geo-localization of ground and aerial imagery by cross-view alignment to
 time: 10:20 - 11:00
 presenter: Rakesh “Teddy” Kumar
 # youtubeid: ey7Llt7THW0
-youtubeid:
-slides: https://zxh009123.github.io/WACV25_CVGL_Tutorial/
-recording: https://www.youtube.com
+youtubeid: Sc6j4Vtu1Kc
+slides: https://drive.google.com/file/d/13XJxze3kJEexh1cCLH8DHX9OE3Tr2Kzo/view?usp=sharing
+recording: https://www.youtube.com/watch?v=Sc6j4Vtu1Kc
 ---
 
 ##### Abstract:
