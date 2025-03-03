@@ -4,9 +4,9 @@ title: "GenAI for cross-view geo-localization"
 time: 9:20 - 10:00
 presenter: Safwan Wshah
 # youtubeid: ey7Llt7THW0
-youtubeid:
-slides: https://zxh009123.github.io/WACV25_CVGL_Tutorial/
-recording: https://www.youtube.com
+youtubeid: -td3FnihTt8
+slides: https://drive.google.com/file/d/14nQzXmcFFthTqIS_9vAp0STW_X3csnG7/view?usp=sharing
+recording: https://www.youtube.com/watch?v=-td3FnihTt8
 ---
 
 ##### Abstract:
