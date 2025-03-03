@@ -4,9 +4,9 @@ title: "Large Vision-Language models for cross-view geo-localization"
 time: 11:00 - 11:40
 presenter: Chen Chen
 # youtubeid: ey7Llt7THW0
-youtubeid:
-slides: https://zxh009123.github.io/WACV25_CVGL_Tutorial/
-recording: https://www.youtube.com
+youtubeid: tGYjYZ4Wlq4
+slides: https://drive.google.com/file/d/1BsjM2CKAUGM0raw91GNwvFJklUd-KdHk/view?usp=sharing
+recording: https://www.youtube.com/watch?v=tGYjYZ4Wlq4
 ---
 
 ##### Abstract:
